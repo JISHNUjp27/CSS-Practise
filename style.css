@@ -219,7 +219,6 @@ color: #fcf3f3;
 
 }
 #left{ 
-    /* background-color: red;   */
     height: 100vh;
     padding-top: 2vh;
     padding-left: 12vh;
@@ -234,7 +233,6 @@ color: #fcf3f3;
     width: 50%;
 }
 #rightphoto{
-    /* background-color:blueviolet; */
     padding-bottom: 2vh;
     padding-left: 2vh;
     padding-top: 2vh;
@@ -247,12 +245,10 @@ color: #fcf3f3;
     object-fit: cover;
 }
 #rightbottom{
-    /* background-color: yellowgreen; */
     height: 30%;
     display: flex;
 }
 #right-left{
-    /* background-color: green; */
     width: 50%;
     padding-left: 3vh;
     padding-top: 5vh;
@@ -277,7 +273,6 @@ color: #fcf3f3;
     position: relative;
     height: 100vh;
     width: 100%;
-    background-color: blue;
     display: flex;
 }
 #center-half-right{
@@ -306,11 +301,10 @@ color: #fcf3f3;
 }
 #center-half-left h3{
     position: absolute;
-    bottom: 0;
+    bottom: 6%;
     left: 20%;
     font-family: "Fredoka", system-ui;
     font-weight: 500;
-
 }
 #center-bottom{
    height: 100vh;
@@ -321,28 +315,23 @@ color: #fcf3f3;
     height: 100%;
     width: 100%;
     object-fit: cover;
-
 }
 #page3{
     height: 100vh;
     width: 100%;
-    /* background-color: red; */
     position: relative;
-    padding: 2vw 4vw;
-    
+    padding: 2vw 4vw;    
 }
 #page3>h1{
     text-align: center;
     font-family: monument;
     text-transform: uppercase;
     font-size: 3vw;
-    margin-bottom: 7vh;
-    
+    margin-bottom: 7vh;  
 }
 .elem{
     height: 16vh;
     width: 100%;
-    /* background-color: lightblue; */
     border-top: 2px solid black;
     display: flex;
     align-items: center;
@@ -357,19 +346,15 @@ color: #fcf3f3;
     position: absolute;
     left: 25%;
     object-fit: cover;
-    
-
 }
 .elem h4{
     font-size: 1.5vw;
     font-family: "Roboto", sans-serif;
-    /* background-color: red; */
     text-transform: uppercase;
     font-weight: 500;
     width: 6%;
 }
 .elem .elem2 {
-    /* background-color: red; */
     width:50%;
 }
 .elem2 h1{
@@ -415,7 +400,6 @@ color: #fcf3f3;
 }
 #text h2{
     margin-bottom: 2vh;
-    /* font-family: "Roboto", sans-serif; */
     font-family: "Afacad Flux", sans-serif;
     font-size: 4vh;
     text-transform: capitalize;
@@ -434,7 +418,6 @@ color: #fcf3f3;
     height: 60%;
     width: 100%;
     display: flex;
-    
 }
 #imges img{
     height: 100%;
@@ -444,7 +427,6 @@ color: #fcf3f3;
     padding: 5vh;
     height: 90vh;
     width: 100%;
-    
 }
 #bottom-between img{
     height: 100%;
@@ -471,8 +453,7 @@ color: #fcf3f3;
     animation-name: move;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    
+    animation-timing-function: linear;   
 }
  @keyframes move{ 
     from{
@@ -871,6 +852,6 @@ color: #fcf3f3;
         animation-duration: 3s;
         animation-iteration-count: infinite;
         animation-timing-function: linear;
-        
+      
     }
 }
