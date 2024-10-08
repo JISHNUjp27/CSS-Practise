@@ -698,9 +698,9 @@ color: #fcf3f3;
     }
     #center-half-left img{
         position: relative;
-        top: 25%; 
-        left: 7%;
-        height: 33%;
+        top: 35%; 
+        left: 18%;
+        height: 23%;
         object-fit: cover;
     }
     #center-half-left h3{
